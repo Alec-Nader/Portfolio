@@ -3,6 +3,7 @@ import React from "react";
 import iMechanic from "../img/iMechanic.png";
 import nadersFarm from "../img/nadersfarm.png";
 import dep from "../img/DEP.png";
+import github from "../img/github.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLink } from '@fortawesome/free-solid-svg-icons'
 
@@ -93,6 +94,29 @@ class Portfolio extends React.Component {
                       </div>
                       <div className="col-sm-2">
                       <FontAwesomeIcon icon={faLink} onClick={() => {this.outLink("https://directenergyproducts.energy/")}} className="outLink"/>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+
+            <div className="col-md-4">
+              <div className="work-box">
+                  <div className="work-img">
+                    <img src={github} alt="" className="img-fluid" />
+                  </div>
+                  <div className="work-content">
+                    <div className="row">
+                      <div className="col-sm-10">
+                        <h2 className="w-title">GitHub</h2>
+                        <div className="w-more">
+                          <span className="w-ctegory">
+                            Have a look at all of my public repositories on GitHub.<br></br>I'm constantly adding new learning projects.
+                          </span>
+                        </div>
+                      </div>
+                      <div className="col-sm-2">
+                      <FontAwesomeIcon icon={faLink} onClick={() => {this.outLink("https://github.com/Alec-Nader")}} className="outLink"/>
                       </div>
                     </div>
                   </div>
