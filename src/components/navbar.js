@@ -15,11 +15,6 @@ class Navbar extends React.Component {
       }
     });
 
-    // $(".resumeDownload").on("click",function(e){
-    //   e.preventDefault();
-    //   window.download('/img/AlecRes.pdf','_blank');
-    // });
-
     $("body").scrollspy({
       target: "#mainNav",
       offset: navHeight
