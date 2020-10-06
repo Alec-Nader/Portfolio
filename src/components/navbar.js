@@ -1,5 +1,6 @@
 import React from "react";
 import $ from "jquery";
+import resume from '../img/AlecRes.pdf'
 
 
 class Navbar extends React.Component {
@@ -13,6 +14,11 @@ class Navbar extends React.Component {
         $("#mainNav").addClass("navbar-reduce");
       }
     });
+
+    // $(".resumeDownload").on("click",function(e){
+    //   e.preventDefault();
+    //   window.download('/img/AlecRes.pdf','_blank');
+    // });
 
     $("body").scrollspy({
       target: "#mainNav",
@@ -114,6 +120,11 @@ class Navbar extends React.Component {
               <li className="nav-item">
                 <a className="nav-link js-scroll" href="#contact">
                   Contact
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link js-scroll" href={resume} download="AlecResume" >
+                  Resume
                 </a>
               </li>
             </ul>
