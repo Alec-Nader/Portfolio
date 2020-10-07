@@ -34,7 +34,7 @@ class Portfolio extends React.Component {
                   </div>
                   <div className="work-content">
                     <div className="row">
-                      <div className="col-sm-10">
+                      <div className="col-10">
                         <h2 className="w-title">iMechanic</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
@@ -43,7 +43,7 @@ class Portfolio extends React.Component {
                           </span>
                         </div>
                       </div>
-                      <div className="col-sm-2">
+                      <div className="col">
                       <FontAwesomeIcon icon={faLink} onClick={() => {this.outLink("https://imechanic-dev.com/html/landing.html")}} className="outLink"/>
                       </div>
                     </div>
@@ -59,7 +59,7 @@ class Portfolio extends React.Component {
                   </div>
                   <div className="work-content">
                     <div className="row">
-                      <div className="col-sm-10">
+                      <div className="col-10">
                         <h2 className="w-title">NadersFarm</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
@@ -68,7 +68,7 @@ class Portfolio extends React.Component {
                           </span>
                         </div>
                       </div>
-                      <div className="col-sm-2">
+                      <div className="col">
                       <FontAwesomeIcon icon={faLink} onClick={() => {this.outLink("https://nadersfarm.com")}} className="outLink"/>
                       </div>
                     </div>
@@ -83,7 +83,7 @@ class Portfolio extends React.Component {
                   </div>
                   <div className="work-content">
                     <div className="row">
-                      <div className="col-sm-10">
+                      <div className="col-10">
                         <h2 className="w-title">Direct Energy Products</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
@@ -92,7 +92,7 @@ class Portfolio extends React.Component {
                           </span>
                         </div>
                       </div>
-                      <div className="col-sm-2">
+                      <div className="col">
                       <FontAwesomeIcon icon={faLink} onClick={() => {this.outLink("https://directenergyproducts.energy/")}} className="outLink"/>
                       </div>
                     </div>
@@ -107,7 +107,7 @@ class Portfolio extends React.Component {
                   </div>
                   <div className="work-content">
                     <div className="row">
-                      <div className="col-sm-10">
+                      <div className="col-10">
                         <h2 className="w-title">GitHub</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
@@ -115,7 +115,7 @@ class Portfolio extends React.Component {
                           </span>
                         </div>
                       </div>
-                      <div className="col-sm-2">
+                      <div className="col">
                       <FontAwesomeIcon icon={faLink} onClick={() => {this.outLink("https://github.com/Alec-Nader")}} className="outLink"/>
                       </div>
                     </div>
